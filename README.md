@@ -112,7 +112,7 @@ The staging tables should use the same column names as their source CSV files. T
 PostgreSQL must be installed locally and the `psql` command must be available. The following example creates a database and a user. Change the password before using it.
 
 ```sql
-CREATE ROLE loan_repayment_user WITH LOGIN PASSWORD 'change_this_password';
+CREATE ROLE loan_repayment_user WITH LOGIN PASSWORD 'your_password';
 CREATE DATABASE loan_repayment_db OWNER loan_repayment_user;
 ```
 
