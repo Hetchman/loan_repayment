@@ -33,6 +33,18 @@ uv sync
 
 This creates the project virtual environment in `.venv` and installs the Python dependencies.
 
+### Alternative setup with requirements.txt
+
+If you are not using `uv`, create and activate a Python virtual environment, then install the same dependencies from `requirements.txt`:
+
+```powershell
+python -m venv .venv
+.\.venv\Scripts\Activate.ps1
+pip install -r requirements.txt
+```
+
+The `uv` setup method is the preferred option for this project. `requirements.txt` is included as an alternative for users who use `pip`.
+
 To use the notebook, start Jupyter from the project folder:
 
 ```powershell
