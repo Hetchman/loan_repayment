@@ -1,0 +1,8 @@
+.venv/
+.uv-cache/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.ipynb_checkpoints/
+.qodo/
+cad_mcp.log
